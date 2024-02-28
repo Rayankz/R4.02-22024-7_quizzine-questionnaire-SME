@@ -1,0 +1,1 @@
+mapper : classe permettant de convertir un objet en un autre objet

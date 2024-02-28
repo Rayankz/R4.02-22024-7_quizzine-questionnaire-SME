@@ -1,0 +1,1 @@
+dto : objet fichier java manipulé par le programme
