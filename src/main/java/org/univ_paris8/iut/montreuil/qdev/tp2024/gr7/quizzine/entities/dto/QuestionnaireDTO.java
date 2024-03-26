@@ -11,4 +11,12 @@ public class QuestionnaireDTO {
     public QuestionnaireDTO() {
         liste = new ArrayList<QuestionDTO>();
     }
+
+    public void setListe(ArrayList<QuestionDTO> liste) {
+        this.liste = liste;
+    }
+
+    public void ajoutQuestion(QuestionDTO questionDTO){
+        liste.add(questionDTO);
+    }
 }
